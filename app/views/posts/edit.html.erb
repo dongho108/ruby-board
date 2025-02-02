@@ -1,0 +1,36 @@
+<h1>게시글 수정</h1>
+
+<%= form_with(model: @post, local: true) do |form| %>
+  <% if @post.errors.any? %>
+    <div class="error-messages">
+      <h2><%= pluralize(@post.errors.count, "error") %> 발생:</h2>
+      <ul>
+        <% @post.errors.full_messages.each do |msg| %>
+          <li><%= msg %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :title, '제목' %>
+    <%= form.text_field :title %>
+  </div>
+
+  <div class="field">
+    <%= form.label :author, '작성자' %>
+    <%= form.text_field :author %>
+  </div>
+
+  <div class="field">
+    <%= form.label :content, '내용' %>
+    <%= form.text_area :content %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit '게시글 수정' %>
+  </div>
+<% end %>
+
+<%= link_to '게시글로 돌아가기', @post %> |
+<%= link_to '목록으로 돌아가기', posts_path %>
