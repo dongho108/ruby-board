@@ -1,0 +1,18 @@
+current directory: /Users/fn0qgmvnwj/Documents/private/private-repository/ruby-playground/ruby-board/vendor/bundle/ruby/3.2.0/gems/racc-1.8.1/ext/racc/cparse
+/Users/fn0qgmvnwj/.rbenv/versions/3.2.2/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/fn0qgmvnwj/Documents/private/private-repository/ruby-playground/ruby-board/vendor/bundle/ruby/3.2.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20250202-85238-13gr09 sitelibdir\=./.gem.20250202-85238-13gr09 clean
+
+current directory: /Users/fn0qgmvnwj/Documents/private/private-repository/ruby-playground/ruby-board/vendor/bundle/ruby/3.2.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20250202-85238-13gr09 sitelibdir\=./.gem.20250202-85238-13gr09
+compiling cparse.c
+linking shared-object racc/cparse.bundle
+
+current directory: /Users/fn0qgmvnwj/Documents/private/private-repository/ruby-playground/ruby-board/vendor/bundle/ruby/3.2.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20250202-85238-13gr09 sitelibdir\=./.gem.20250202-85238-13gr09 install
+/usr/bin/install -c -m 0755 cparse.bundle ./.gem.20250202-85238-13gr09/racc
+
+current directory: /Users/fn0qgmvnwj/Documents/private/private-repository/ruby-playground/ruby-board/vendor/bundle/ruby/3.2.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20250202-85238-13gr09 sitelibdir\=./.gem.20250202-85238-13gr09 clean
